@@ -9,6 +9,32 @@ const connection = mysql.createConnection({
     database: 'employeeInfo_db'
 })
 
+
+function viewAllDepartments() {
+
+}
+
+function viewAllRoles() {
+
+}
+
+function viewAllEmployees() {
+
+}
+
+function addADepartment() {
+
+}
+
+function addARole() {
+
+}
+
+function addAnEmployee() {
+
+}
+
+
 inquirer.prompt([
     {
         type: 'list',
