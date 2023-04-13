@@ -1,0 +1,25 @@
+{
+  "name": "sql-employee-tracker",
+  "version": "1.0.0",
+  "description": "## Description",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brandonk1023/SQL-Employee-Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brandonk1023/SQL-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/Brandonk1023/SQL-Employee-Tracker#readme",
+  "dependencies": {
+    "inquirer": "^9.1.5",
+    "mysql2": "^3.2.0"
+  }
+}

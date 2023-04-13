@@ -18,25 +18,31 @@ inquirer.prompt([
 
         ]
     }
-]) .then((response) => {
-    switch (response.initialChoice) {
+]) .then((choice) => {
+    switch (choice.initialChoice) {
         case 'View all departments':
-            break;
+            viewAllDepartments()
+            break
 
         case 'View all roles':
-            break;
+            viewAllRoles()
+            break
 
         case 'View all employees':
-            break;
+            viewAllEmployees()
+            break
 
         case 'Add a department':
-            break;
+            addADepartment()
+            break
 
         case 'Add a role':
-            break;
-            
+            addARole()
+            break
+
         case 'Add an employee':
-            break;
+            addAnEmployee()
+            break
     }
 
 })
